@@ -1,6 +1,6 @@
 Designed and validated a modular autonomous robotic platform with fault-tolerant power management, SLAM-based navigation, and automated self-docking. Developed firmware, backend services, and integration test framework.
 
-1. System Architecture (Designed Like a Real Product)
+1. System Architecture
 * High-Level Architecture
                 ┌────────────────────┐
                 │   Web Dashboard    │
@@ -12,7 +12,7 @@ Designed and validated a modular autonomous robotic platform with fault-tolerant
                 │  ROS 2 Nodes       │
                 └──────┬─────┬───────┘
                        │     │
-              ┌────────▼┐  ┌─▼─────────┐
+              ┌────────▼┐  ┌─▼─────────-┐
               │ Vision  │  │ Nav Stack  │
               │ Camera  │  │ SLAM       │
               └─────────┘  └────────────┘
@@ -50,7 +50,6 @@ Each should have:
 * Clear interface definition
 * Defined input/output spec
 * Test plan
-
 
 2. Suggested Parts List
 Compute:
