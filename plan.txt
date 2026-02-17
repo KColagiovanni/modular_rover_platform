@@ -46,85 +46,86 @@ Designed and validated a modular autonomous robotic platform with fault-tolerant
   Vision Module    -->  Camera + inference
   Docking Module   -->  Charging + alignment sensors
 
-Each should have:
-* Clear interface definition
-* Defined input/output spec
-* Test plan
+    Each should have:
+    * Clear interface definition
+    * Defined input/output spec
+    * Test plan
 
 2. Suggested Parts List
-Compute:
-* Raspberry Pi 5 (8GB) – main compute
-* Arduino Nano / ESP32 – real-time motor control
+* Compute:
+    * Raspberry Pi 5 (8GB) – main compute
+    * Arduino Nano / ESP32 – real-time motor control
 
-Power:
-* 12V Li-ion battery pack
-* 5V buck converter
-* Fuse block
-* INA219 current sensor (for telemetry)
+* Power:
+    * 12V Li-ion battery pack
+    * 5V buck converter
+    * Fuse block
+    * INA219 current sensor (for telemetry)
 
-Motion:
-* 4WD metal gear motor chassis
-* Dual H-bridge motor driver (BTS7960 preferred over L298N)
-* Wheel encoders
+* Motion:
+    * 4WD metal gear motor chassis
+    * Dual H-bridge motor driver (BTS7960 preferred over L298N)
+    * Wheel encoders
 
-Sensors:
-* RPLidar A1 (SLAM capable)
-* IMU (MPU6050 or better)
-* Ultrasonic sensors
-* Pi Camera v3
+* Sensors:
+    * RPLidar A1 (SLAM capable)
+    * IMU (MPU6050 or better)
+    * Ultrasonic sensors
+    * Pi Camera v3
 
-Docking (Phase 2):
-* IR beacon or AprilTag marker
-* Spring-loaded charging contacts
-* Charging controller module
+* Docking (Phase 2):
+    * IR beacon or AprilTag marker
+    * Spring-loaded charging contacts
+    * Charging controller module
 
 3. 3-Month Build Roadmap
+
 Month 1: Base Platform + Manual Control
 
-Goals:
-* Assemble chassis
-* Motor control via MCU
-* Serial comm between Pi and MCU
-* Basic teleop via keyboard/web
+* Goals:
+    * Assemble chassis
+    * Motor control via MCU
+    * Serial comm between Pi and MCU
+    * Basic teleop via keyboard/web
 
-Deliverables:
-* Clean wiring harness
-* Defined comm protocol (JSON or binary)
-* Unit tests for motor commands
+* Deliverables:
+    * Clean wiring harness
+    * Defined comm protocol (JSON or binary)
+    * Unit tests for motor commands
 
-Add:
-* Watchdog timer
-* Emergency stop logic
+* Add:
+    * Watchdog timer
+    * Emergency stop logic
 
 Month 2: Autonomy + Telemetry
 
-Goals:
-* Integrate Lidar
-* Implement SLAM using ROS2 Nav2 stack
-* Log telemetry to DB
-* Battery monitoring + low-voltage cutoff
+* Goals:
+    * Integrate Lidar
+    * Implement SLAM using ROS2 Nav2 stack
+    * Log telemetry to DB
+    * Battery monitoring + low-voltage cutoff
 
-Deliverables:
-* Live map visualization
-* Battery % dashboard
-* Fault injection test (disconnect sensor mid-run)
-* This is where it starts looking like a real system.
+* Deliverables:
+    * Live map visualization
+    * Battery % dashboard
+    * Fault injection test (disconnect sensor mid-run)
+    * This is where it starts looking like a real system.
 
 Month 3: Self-Docking + Vision
 
-Goals:
-* Detect docking station
-* PID alignment control
-* Auto-return when battery < 20%
-* Add object detection
+* Goals:
+    * Detect docking station
+    * PID alignment control
+    * Auto-return when battery < 20%
+    * Add object detection
 
-Optional inference:
-* Run lightweight YOLO model locally
+* Optional inference:
+    * Run lightweight YOLO model locally
 
-Deliverables:
-* Fully autonomous patrol
-* Auto-dock + recharge
-* Recorded demo video
+* Deliverables:
+    * Fully autonomous patrol
+    * Auto-dock + recharge
+    * Recorded demo video
 
 4. Senior-Level Material
 
