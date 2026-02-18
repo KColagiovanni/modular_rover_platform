@@ -131,22 +131,22 @@ Month 3: Self-Docking + Vision
 
 * Add a Real Test Strategy *
 
-Create:
-* Requirements document
-* Interface Control Document (ICD)
-* State diagram
-* Fault tree analysis
-* Integration test matrix
-* Automated hardware-in-the-loop test script
+* Create:
+    * Requirements document
+    * Interface Control Document (ICD)
+    * State diagram
+    * Fault tree analysis
+    * Integration test matrix
+    * Automated hardware-in-the-loop test script
 
-Optional:
-* Simulate motor feedback to test failure cases.
+* Optional:
+    * Simulate motor feedback to test failure cases.
 
-Instrument Everything:
-* Log motor current spikes
-* Log encoder drift
-* Log SLAM confidence
-* Create test reports
+* Instrument Everything:
+    * Log motor current spikes
+    * Log encoder drift
+    * Log SLAM confidence
+    * Create test reports
 
 📁 GitHub Structure
 /firmware
@@ -156,13 +156,13 @@ Instrument Everything:
 /docs
 /tests
 
-Include:
-* Architecture diagram
-* Test coverage report
-* Demo videos
+* Include:
+    * Architecture diagram
+    * Test coverage report
+    * Demo videos
 
-Stretch Goals:
-* OTA firmware updates
-* Encrypted communication
-* Redundant sensor fusion
-* Remote fleet management (if you build two)
+* Stretch Goals:
+    * OTA firmware updates
+    * Encrypted communication
+    * Redundant sensor fusion
+    * Remote fleet management (if you build two)
