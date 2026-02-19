@@ -63,15 +63,15 @@ Designed and validated a modular autonomous robotic platform with fault-tolerant
     * INA219 current sensor (for telemetry)
 
 * Motion:
-    * 4WD metal gear motor chassis
-    * Dual H-bridge motor driver (BTS7960 preferred over L298N)
-    * Wheel encoders
+    * 4WD metal gear motor chassis - $20 (Amazon).
+    * Dual H-bridge motor driver (BTS7960 preferred over L298N) - $15.38 for 2 BTS7960(Amazon).
+    * Wheel encoders and optical sensors - $6.96 for 40 wheel encoders & $9.99 for 10 optical sensors(Amazon).
 
 * Sensors:
-    * RPLidar A1 (SLAM capable)
-    * IMU (MPU6050 or better)
-    * Ultrasonic sensors
-    * Pi Camera v3
+    * RPLidar A1 (SLAM capable) - $99.00 (Amazon).
+    * IMU (MPU6050 or better) - $9.99 for 3 (Amazon).
+    * Ultrasonic sensors - $9.99 for 5 (Amazon).
+    * Pi Camera v3 - $30 for 75* or $36 for 120* wide angle (Amazon).
 
 * Docking (Phase 2):
     * IR beacon or AprilTag marker
