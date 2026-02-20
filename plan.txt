@@ -53,14 +53,14 @@ Designed and validated a modular autonomous robotic platform with fault-tolerant
 
 2. Suggested Parts List
 * Compute:
-    * Raspberry Pi 5 (8GB) – main compute
-    * Arduino Nano / ESP32 – real-time motor control
+    * Raspberry Pi 5 (8GB) – main compute - $157 PC + Power adapter + heatsinks/$134 PC only (Amazon or PiShop).
+    * Arduino Nano / ESP32 – real-time motor control - $15.99 Nano (Qty 3)/$15.19 ESP32-DevKitC (Qty 2)(Amazon).
 
 * Power:
-    * 12V Li-ion battery pack
-    * 5V buck converter
-    * Fuse block
-    * INA219 current sensor (for telemetry)
+    * 12V Li-ion battery pack - $31.99 6000mAh w/Charger (Amazon)
+    * 5V buck converter - $9.56 MP1584EN (Qty 5)(Amazon)
+    * Fuse block - $6.19 5 x 20mm Fuse PCB Panel Mount Holder (Qty 10)(Amazon)
+    * INA219 current sensor (for telemetry) - $8.19 (Qty 2)(Amazon)
 
 * Motion:
     * 4WD metal gear motor chassis - $20 (Amazon).
