@@ -74,9 +74,9 @@ Designed and validated a modular autonomous robotic platform with fault-tolerant
     * Pi Camera v3 - $30 for 75* or $36 for 120* wide angle (Amazon).
 
 * Docking (Phase 2):
-    * IR beacon or AprilTag marker
-    * Spring-loaded charging contacts
-    * Charging controller module
+    * IR beacon - $17.99 for FSC-BP103B (Amazon)
+    * Spring-loaded charging contacts - $9.49 for 2-Pin Magnetic Pogo Pin Connector (Amazon)
+    * Charging controller module - $11.51 Brand: Yanmis (Amazon)
 
 3. 3-Month Build Roadmap
 
